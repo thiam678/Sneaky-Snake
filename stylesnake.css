@@ -1,0 +1,53 @@
+#game-board {
+  width: 400px;
+  height: 400px;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+  background-color: blue;
+}
+
+.snake-segment {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 10px;
+  transform: skew(-15deg);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.food {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: red;
+}
+#title-container {
+  text-align: center;
+  margin-top: 20px;
+}
+#title {
+  font-size: 2em;
+  color: blue;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 20px;
+  background-color: #ff0000;
+  padding: 10px;
+  border: 2px solid #000;
+  text-shadow: 2px 2px #000;
+}
+#score {
+  position: absolute;
+  top: 3;
+  right: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+#body {
+  background-color: #yellow;
+  background-image: linear-gradient(#red, #blue);
+}
+
